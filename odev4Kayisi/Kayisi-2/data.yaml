@@ -1,0 +1,14 @@
+names:
+- cekirdek
+- kayisi
+- yaprak
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: kayisi-acs9a
+  url: https://universe.roboflow.com/kays-rsdol/kayisi-acs9a/dataset/2
+  version: 2
+  workspace: kays-rsdol
+test: ../test/images
+train: ../train/images
+val: ../valid/images

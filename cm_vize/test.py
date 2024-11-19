@@ -4,11 +4,11 @@ from sklearn.metrics import classification_report
 import numpy as np
 
 # Kendi eğittiğiniz modeli yükleyin
-model = YOLO('C:\\Users\\serka\\PycharmProjects\\cm_vize\\FinalSonuc\\train\\weights\\best.pt')  # Eğitilmiş modelin yolunu belirtin
+model = YOLO('C:\\Users\\serka\\Desktop\\Bilgisayar Görmesi\\cm_vize\\FinalSonuc\\train\\weights\\best.pt')  # Eğitilmiş modelin yolunu belirtin
 
 # Test klasörünün yolunu belirleyin
-test_images_folder = "C:\\Users\\serka\\PycharmProjects\\cm_vize\\cv_vize2-1\\test\\images"
-labels_folder = "C:\\Users\\serka\\PycharmProjects\\cm_vize\\cv_vize2-1\\test\\labels"  # Gerçek etiketlerin olduğu klasör
+test_images_folder = "C:\\Users\\serka\Desktop\\Bilgisayar Görmesi\\cm_vize\\cv_vize2-1\\test\\images"
+labels_folder = "C:\\Users\\serka\\Desktop\\Bilgisayar Görmesi\\cm_vize\\cv_vize2-1\\test\\labels"  # Gerçek etiketlerin olduğu klasör
 results_folder = "results"
 os.makedirs(results_folder, exist_ok=True)
 
